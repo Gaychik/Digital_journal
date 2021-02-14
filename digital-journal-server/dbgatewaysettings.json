@@ -1,0 +1,22 @@
+{
+  "connectionString": "Server=(localdb)\\MSSQLLocalDB;Integrated Security=true;Database=DigitalJournal;",
+  "security": {
+    "securedEntities": [
+      "Human"
+    ]
+  },
+
+  "connectionString2": "Server=localhost/SQLExpress;Database=DigitalJournal;User Id=fullaccess;Password=Qazwsx123!;",
+  "security2": {
+    "securedEntities": [
+      "Human"
+    ],
+
+    "cypherController": "Encryption",
+    "securityAssembly": "digital-journal-security.dll",
+
+    "key": "",
+    "keyType": "",
+    "keyTypeAssembly": ""
+  }
+}

@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "digital-journal-server", "digital-journal-server\digital-journal-server.csproj", "{211918AC-D0B2-44BE-B49C-71FFB4F82AB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A909CC6A-E76F-4F95-8FF5-F606279CF219} = {A909CC6A-E76F-4F95-8FF5-F606279CF219}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "digital-journal-models", "digital-journal-models\digital-journal-models.csproj", "{EBF7E8B4-356D-41C8-A4EC-0D682379FF9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "digital-journal-dbgateway", "digital-journal-dbgateway\digital-journal-dbgateway.csproj", "{BBDD0032-0AC8-4ED9-A674-F9D723EBF853}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "digital-journal-security", "digital-journal-security\digital-journal-security.csproj", "{A909CC6A-E76F-4F95-8FF5-F606279CF219}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBDD0032-0AC8-4ED9-A674-F9D723EBF853} = {BBDD0032-0AC8-4ED9-A674-F9D723EBF853}
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{211918AC-D0B2-44BE-B49C-71FFB4F82AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211918AC-D0B2-44BE-B49C-71FFB4F82AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211918AC-D0B2-44BE-B49C-71FFB4F82AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211918AC-D0B2-44BE-B49C-71FFB4F82AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF7E8B4-356D-41C8-A4EC-0D682379FF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF7E8B4-356D-41C8-A4EC-0D682379FF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF7E8B4-356D-41C8-A4EC-0D682379FF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF7E8B4-356D-41C8-A4EC-0D682379FF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDD0032-0AC8-4ED9-A674-F9D723EBF853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDD0032-0AC8-4ED9-A674-F9D723EBF853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDD0032-0AC8-4ED9-A674-F9D723EBF853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDD0032-0AC8-4ED9-A674-F9D723EBF853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A909CC6A-E76F-4F95-8FF5-F606279CF219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A909CC6A-E76F-4F95-8FF5-F606279CF219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A909CC6A-E76F-4F95-8FF5-F606279CF219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A909CC6A-E76F-4F95-8FF5-F606279CF219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
