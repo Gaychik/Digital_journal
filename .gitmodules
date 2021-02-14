@@ -4,3 +4,6 @@
 [submodule "digital-journal-security"]
 	path = digital-journal-security
 	url = https://bitbucket.org/gorthaur193/digital-journal-security.git
+[submodule "digital-journal-web"]
+	path = digital-journal-web
+	url = https://bitbucket.org/gorthaur193/digital-journal-web.git

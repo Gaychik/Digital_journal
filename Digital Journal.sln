@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "digital-journal-security", 
 		{BBDD0032-0AC8-4ED9-A674-F9D723EBF853} = {BBDD0032-0AC8-4ED9-A674-F9D723EBF853}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "digital-journal-web.Client", "digital-journal-web\digital-journal-web.csproj", "{7307AEF1-CA44-4FC9-B84C-43C911CBD3E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,18 @@ Global
 		{A909CC6A-E76F-4F95-8FF5-F606279CF219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A909CC6A-E76F-4F95-8FF5-F606279CF219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A909CC6A-E76F-4F95-8FF5-F606279CF219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427B40CD-8817-46ED-A150-6A8B18101873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427B40CD-8817-46ED-A150-6A8B18101873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427B40CD-8817-46ED-A150-6A8B18101873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427B40CD-8817-46ED-A150-6A8B18101873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7307AEF1-CA44-4FC9-B84C-43C911CBD3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7307AEF1-CA44-4FC9-B84C-43C911CBD3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7307AEF1-CA44-4FC9-B84C-43C911CBD3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7307AEF1-CA44-4FC9-B84C-43C911CBD3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAE42E5-1325-438A-BA8A-677A396B8979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAE42E5-1325-438A-BA8A-677A396B8979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAE42E5-1325-438A-BA8A-677A396B8979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAE42E5-1325-438A-BA8A-677A396B8979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
