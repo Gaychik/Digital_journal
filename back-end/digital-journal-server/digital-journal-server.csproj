@@ -14,8 +14,8 @@
   </ItemGroup>
 
  <ItemGroup>
+    <ProjectReference Include="..\..\digital-journal-models\digital-journal-models.csproj" />
     <ProjectReference Include="..\digital-journal-dbgateway\digital-journal-dbgateway.csproj" />
-    <ProjectReference Include="..\digital-journal-models\digital-journal-models.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,5 +2,8 @@
 	path = digital-journal-models
 	url = https://bitbucket.org/gorthaur193/digital-journal-models.git
 [submodule "digital-journal-security"]
-	path = digital-journal-security
+	path = back-end/digital-journal-security
 	url = https://bitbucket.org/gorthaur193/digital-journal-security.git
+[submodule "digital-journal-web"]
+	path = front-end/digital-journal-web
+	url = https://bitbucket.org/gorthaur193/digital-journal-web.git
