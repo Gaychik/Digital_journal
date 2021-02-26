@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>DigitalJournal</RootNamespace>
+    <UserSecretsId>b0633592-4203-4fe4-ae9d-8ed3fec19db3</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,8 +15,8 @@
   </ItemGroup>
 
  <ItemGroup>
-    <ProjectReference Include="..\..\digital-journal-models\digital-journal-models.csproj" />
     <ProjectReference Include="..\digital-journal-dbgateway\digital-journal-dbgateway.csproj" />
+    <ProjectReference Include="..\digital-journal-models\digital-journal-models.csproj" />
   </ItemGroup>
 
 </Project>

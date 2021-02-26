@@ -1,5 +1,5 @@
 {
-  "connectionString": "Server=(localdb)\\MSSQLLocalDB;Integrated Security=true;Database=DigitalJournal;",
+  "connectionString": "Server=.\\SQLEXPRESS;Integrated Security=true;Database=DigitalJournal;",
   "security": {
     "securedEntities": [
       "Human"

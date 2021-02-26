@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\digital-journal-models\digital-journal-models.csproj" />
+    <ProjectReference Include="..\digital-journal-models\digital-journal-models.csproj" />
   </ItemGroup>
 
   <ItemGroup>
